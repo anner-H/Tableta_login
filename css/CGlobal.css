@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px; /*unidades REM*/
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+   /*secciones*/
+    section{
+        max-width: 37.5;
+        height: auto;
+        margin: auto;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+
+:root{
+    /*colores*/
+    --azul1: #345fb4;
+    --azul2: #6789ca;
+    --gris1: #313131;
+    --gris2: #777777;
+    --gris3: #a5a5a5;
+
+    /*fuentes*/
+    --size-h1: 3.4rem;
+    --size-h2: 2.6rem;
+    --size-h3: 2rem;
+    --size-parrafo: 1.6rem;
+}
+
